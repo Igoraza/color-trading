@@ -7,7 +7,7 @@ export default function ProfileCard() {
         <main className="mt-3">
             <section className="flex justify-center mx-auto">
                 <div style={{ background: "linear-gradient(90deg, #1F1C2C 0%, #928DAB 100%)" }}
-                    className="w-full  flex space-x-8  p-4 h-72 rounded-[50px]">
+                    className="w-full max-w-2xl flex space-x-3  p-4 h-72 rounded-[50px]">
                     {/* ?image section  */}
                     <div>
                         <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" className="h-40 lg:h-44 rounded-lg" alt="Profile Pic" />
@@ -16,14 +16,14 @@ export default function ProfileCard() {
                     {/* ? image section close */}
                     {/* !name section opens */}
                     <div className="w-full">
-                        <div className="flex items-center gap-4">
-                            <h3 className="text-2xl lg:text-3xl font-bold text-white">Johon Doe</h3>
+                        <div className="flex items-center space-x-3">
+                            <h3 className="text-xl lg:text-3xl font-bold text-white">Johon Doe</h3>
                             {/* edit icon */}
                             <FaUserEdit className="text-2xl text-white" />
                         </div>
                         <button
                             style={{ background: "linear-gradient(90deg, #FFE259 0%, #FFA751 100%)" }}
-                            className="py-2 mt-4 px-6 rounded-full text-black font-bold">UID: 123456578</button>
+                            className="mt-4 btn border-none rounded-full text-black font-bold">UID: 123456578</button>
                         <p className="mt-4 font-bold text-white">Last Login 2024 August 1</p>
                         {/* icons */}
                         <div className="mt-4 flex gap-4">

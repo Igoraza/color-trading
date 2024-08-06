@@ -26,7 +26,7 @@ export default function BottomNavbar() {
     return (
         <nav 
         style={{background: "linear-gradient(88.25deg, #4B0082 44.55%, #10001C 98.52%)"}}
-        className="flex fixed z-50 bottom-0 bottom-bg w-full h-16  items-center justify-between px-4">
+        className="flex fixed z-50 -bottom-1 bottom-bg w-full h-16  items-center justify-between px-4">
             {navLinks.map((data) => (
                 <div key={data.label} className="flex flex-col items-center">
                     <motion.button
